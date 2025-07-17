@@ -1,0 +1,32 @@
+
+---
+
+### 🗂 `.gitignore` – For Python + Jupyter + VS Code
+
+```gitignore
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment files
+.env
+*.env
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data files (optional — use if raw data is large/private)
+data/raw/*
